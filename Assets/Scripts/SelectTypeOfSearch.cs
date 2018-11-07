@@ -8,6 +8,7 @@ public class SelectTypeOfSearch : MonoBehaviour {
     public GameObject goLivro;
     public GameObject goAutor;
     public GameObject goArea;
+    public GameObject goSubarea;
     public Dropdown ddOption;
     public GameObject search;
 	// Use this for initialization
@@ -20,6 +21,7 @@ public class SelectTypeOfSearch : MonoBehaviour {
         goLivro.SetActive(false);
         goAutor.SetActive(false);
         goArea.SetActive(false);
+        goSubarea.SetActive(false);
     }
 	
 	// Update is called once per frame
@@ -31,6 +33,7 @@ public class SelectTypeOfSearch : MonoBehaviour {
                 goLivro.SetActive(false);
                 goAutor.SetActive(false);
                 goArea.SetActive(true);
+                goSubarea.SetActive(false);
                 search.SetActive(false);
                 break;
             //opcao livro
@@ -38,6 +41,7 @@ public class SelectTypeOfSearch : MonoBehaviour {
                 goLivro.SetActive(true);
                 goAutor.SetActive(false);
                 goArea.SetActive(false);
+                goSubarea.SetActive(false);
                 search.SetActive(false);
                 break;
             //opcao autor
@@ -45,6 +49,13 @@ public class SelectTypeOfSearch : MonoBehaviour {
                 goLivro.SetActive(false);
                 goAutor.SetActive(true);
                 goArea.SetActive(false);
+                search.SetActive(false);
+                break;
+            case (3):
+                goLivro.SetActive(false);
+                goAutor.SetActive(false);
+                goArea.SetActive(false);
+                goSubarea.SetActive(true);
                 search.SetActive(false);
                 break;
         }
