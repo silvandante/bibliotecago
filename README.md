@@ -1,3 +1,5 @@
+Overview do projeto em execução: https://www.youtube.com/watch?v=oSc6L1mL3co&t=9s
+
 # Aplicativo Android com Realidade Aumentada para o auxílio à navegação na Biblioteca da Universidade Federal de Roraima
 
 **Anny Caroline Walker Silva, Pedro Aleph Gomes de Souza Vasconcelos**
